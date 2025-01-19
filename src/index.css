@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.main{
+    background: rgba(0, 22, 29, 1);
+
+}
+.container1{
+
+ background-position: left;
+ background-repeat: no-repeat;
+ background-color:black ;
+ height: 110vh;
+ color: aliceblue;
+ button{
+    width:131px;
+height: 44px;
+top: 256px;
+left: 654.5px;
+padding: 12px 24px 12px 24px;
+gap: 0px;
+border-radius: 12px ;
+opacity: 0px;
+background: rgba(139, 249, 232, 0.01);
+box-shadow: 0px 0px 40px 0px rgba(139, 249, 232, 0.2) inset;
+
+backdrop-filter: blur(7.5px)
+
+
+ }
+ video{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    left: 0;
+ }
+
+}
+.menus{
+    color: rgba(176, 250, 255, 0.7);
+
+   width: 653px;
+height: 64px;
+gap: 0px;
+border-radius: 48px;
+border: var(--strokeweight1);
+opacity: 0px;
+
+background: rgba(12, 43, 47, 0.7);
+
+
+}
+.btn1{
+    width: 47px;
+height: 44px;
+gap: 0px;
+opacity: 0px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+
+}
+.btn2{
+    background: rgba(205, 252, 255, 1);
+text-align: center;
+width: 139.71px;
+height: 44px;
+padding: 12px 24px 12px 24px;
+gap: 0px;
+border-radius: 12px;
+opacity: 0px;
+
+}
+.headings{
+    
+font-family: var(--fontfamilyFont1);
+font-size: 72px;
+font-weight: 500;
+line-height: var(--lineheight76);
+letter-spacing: var(--letterspacing-144);
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+span{
+    width: 419px;
+height: 84px;
+padding: 4px 20px 4px 20px;
+gap: 0px;
+border-radius: 56px;
+opacity: 0px;
+background: rgba(176, 249, 255, 1);
+color: rgba(11, 42, 45, 1);
+
+
+}
+
+}
+.paras p{
+  width: 500px;
+height: 28px;
+top: 195.25px;
+left: 470.09px;
+gap: 0px;
+opacity: 0px;
+
+font-family: var(--fontfamilyFont1);
+font-size:20px;
+font-weight: 400;
+line-height: var(--lineheight28);
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(176, 250, 255, 0.7);
+
+
+  
+}
+.containt1{
+width: 280px;
+height: 504px;
+gap: 0px;
+border-radius: 56px 16px 16px 16px;
+border: 1px #0F373C;
+opacity: 0px;
+
+}
+.texts-c2{
+    background: url('./assets/bg-right.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    
+
+}
+.rounded1{
+    border-radius: 16px 16px 16px 56px;
+}
+.rounded2{
+    border-radius: 16px 16px 56px 16px;
+}
+.b-img{
+    background-image: url('./assets/Group.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
