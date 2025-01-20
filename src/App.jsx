@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="main relative">
+    <div className="main relative overflow-x-hidden">
       <Header />
       <Container1/>
       <Container2/>

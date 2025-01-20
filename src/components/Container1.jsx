@@ -7,9 +7,9 @@ const Container1 = () => {
       <div className="h-[300px] w-full flex flex-col items-center justify-center gap-4 z-10">
         <div className="headings">
           <h1>When Innovation</h1>
-          <h1>
+          <h2 >
             Meets <span>Investment</span>
-          </h1>
+          </h2>
         </div>
         <div className="paras">
           <p>Empowering Trading Through Advanced Technology </p>
