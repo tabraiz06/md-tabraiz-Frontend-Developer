@@ -3,7 +3,7 @@ import bgtec from '../assets/bg-tec.mov'
 import Donut from '../assets/Donut.png'
 const Tokenomics = () => {
   return (
-    <div className="bg-[#00161d40] Tokenomics h-[802px] z-30 w-full  mt-8 relative items-center justify-center flex  ">
+    <div className="bg-[#00161d40]  h-[802px] z-30 w-full  mt-8 relative items-center justify-center flex  ">
       <video
         src={bgtec}
         autoPlay
@@ -11,11 +11,11 @@ const Tokenomics = () => {
         loop
         className="z-0 absolute top-0"
       ></video>
-      <div className="relative flex w-full h-[694px]  flex-col gap-[80px] text-center z-40 ">
+      <div className="relative flex w-full items-center h-[694px]  flex-col gap-[80px] text-center z-40 ">
         <div className="header">
-          <h1 className="text-[22px] font-[500] text-[#FFFFFF]">Tokenomics</h1>
+          <h1 className="text-[40px] font-[500] text-[#FFFFFF]">Tokenomics</h1>
         </div>
-        <div className="flex p-[80px] gap-[40px]">
+        <div className="flex p-[80px] gap-[40px] ">
           <div className="w-[671px]">
             <img src={Donut} alt="" className="h-[522px]" />
           </div>

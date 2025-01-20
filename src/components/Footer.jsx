@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 import telegram from '../assets/telegram.png'
 import insta from '../assets/instagram.png'
 import x from '../assets/x.png'
-import fb from '../assets/facebook.png'
+import fb from '../assets/Facebook.png'
 import discord from '../assets/discord.png'
 const Footer = () => {
   return (
