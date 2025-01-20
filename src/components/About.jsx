@@ -7,8 +7,15 @@ import bgvideo from "../assets/bg-video.mp4";
 
 const About = () => {
   return (
-    <div className="w-full h-[756px] flex items-center justify-center flex-col gap-4">
-      <div className="text w-[744px] text-center  ">
+    <div className="mt-16 relative w-full h-[756px] flex items-center justify-center flex-col gap-4">
+      <video
+        src={bgvideo}
+        autoPlay
+        muted
+        loop
+        className="z-0 absolute  right-0 rotate-180 "
+      ></video>
+      <div className="z-40 text w-[744px] text-center  ">
         <h1 className="text-[22px] font-[500] text-[#FFFFFF]">About EthAi</h1>
         <p className="text-[16px] font-[400] text-[#B0FAFFB2]">
           At EthAi, we’re all about making crypto trading easier and more
@@ -19,14 +26,8 @@ const About = () => {
           Read more
         </button>
       </div>
-      <video
-        src={bgvideo}
-        autoPlay
-        muted
-        loop
-        className="z-0 absolute top-0 right-0 rotate-180 h-[304px]"
-      ></video>
-      <div className="relative flex w-[744px] h-[400px] bg-[#0C2B2FB2] rounded-[16px] gap-[40px] items-center justify-center">
+
+      <div className="z-50 relative flex w-[744px] h-[400px] bg-[#0C2B2FB2] rounded-[16px] gap-[40px] items-center justify-center">
         <div className=" z-30 flex w-[617px] h-[304px] flex-col gap-[40px]">
           <div className="flex gap-[36px]">
             <div className="flex flex-col gap-[12px] w-[290.5px] h-[120px]">
@@ -80,13 +81,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <video
-        src={bgvideo}
-        autoPlay
-        muted
-        loop
-        className="z-0 absolute top-0 right-0 rotate-180 h-[304px]"
-      ></video>
+      
     </div>
   );
 };
