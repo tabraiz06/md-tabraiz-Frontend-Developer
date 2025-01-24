@@ -216,11 +216,15 @@ color: #FFFFFF;
   
 
 }
-.Tokenomics::after{
+.Tokenomics::before{
+
+    position: absolute;
+    top:    0;
     content: "";
     width: 100%;
-    height: 802px;
-    background-color: #00161d40;
+    height: 900px;
+    z-index: 10;
+    background-color: #0e0f0fad;
 }
 .adbg{
     background-image: url('./assets/Container.png');

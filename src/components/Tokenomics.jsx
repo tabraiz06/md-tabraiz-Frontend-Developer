@@ -3,13 +3,13 @@ import bgtec from '../assets/bg-tec.mov'
 import Donut from '../assets/Donut.png'
 const Tokenomics = () => {
   return (
-    <div className="bg-[#00161d40]  h-[802px] z-30 w-full  mt-8 relative items-center justify-center flex  ">
+    <div className="bg-[#00161d40] Tokenomics  h-[900px] py-16 z-30 w-full  mt-8 relative items-center justify-center flex  ">
       <video
         src={bgtec}
         autoPlay
         muted
         loop
-        className="z-0 absolute top-0"
+        className="z-0 absolute top-0 h-[900px] object-cover"
       ></video>
       <div className="relative flex w-full items-center h-[694px]  flex-col gap-[80px] text-center z-40 ">
         <div className="header">
